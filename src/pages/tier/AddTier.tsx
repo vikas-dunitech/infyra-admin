@@ -23,6 +23,7 @@ const customStyles: StylesConfig<OptionType, false> = {
   }),
   menu: (base) => ({
     ...base,
+     color: 'rgba(255, 255, 255, 1)', // selected item text color
     zIndex: 9999,
   }),
 };
