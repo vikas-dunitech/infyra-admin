@@ -6,6 +6,8 @@ import SellNode from './pages/sell-node/SellNode';
 import ReferralReport from './pages/referral/ReferralReport';
 import ETH from './pages/eth/ETH';
 import ActiveNodes from './pages/active-nodes/ActiveNodes';
+import AddTier from './pages/tier/AddTier';
+import TierDetails from './pages/tier/TierDetails';
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
           <Route path='/eth' element={<ETH/>}/>
           <Route path='/active-nodes' element={<ActiveNodes/>}/>
           <Route path='/eth' element={<ETH/>}/>
+          <Route path='/add-tier' element={<AddTier/>}/>
+          <Route path='/tier-details' element={<TierDetails/>}/>
         </Routes>
       </Router>
 
